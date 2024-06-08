@@ -1,0 +1,23 @@
+.cta-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+  }
+  
+  .cta-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+  }
+  
