@@ -1,0 +1,78 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+/* Hide navbar when scrolled down */
+.navbar-hidden {
+  top: -100px; /* Adjust as needed */
+}
+
+/* Show navbar when scrolled up */
+.navbar-visible {
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px 10px 30px;
+  background-color: white;
+}
+
+.navbar-logo a {
+  display: flex;
+}
+
+.navbar-logo img.logo-image {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-links a, .navbar-buttons a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar-links a {
+  margin: 0 10px;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search img.search-image {
+  height: 25px;
+  width: auto;
+}
+
+.navbar-cart, .navbar-login {
+  margin-left: 50px;
+  padding: 10px 40px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.navbar-cart:hover, .navbar-login:hover {
+  background-color: white;
+  color: #333;
+}
