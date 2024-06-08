@@ -13,6 +13,7 @@ body {
 .navbar-container {
   position: fixed;
   width: 100%;
+  padding: 1% 1% 0% 1%;
   top: 0;
   z-index: 1000;
   transition: top 0.3s;
@@ -20,7 +21,7 @@ body {
 
 /* Hide navbar when scrolled down */
 .navbar-hidden {
-  top: -100px; /* Adjust as needed */
+  top: -120px; /* Adjust as needed */
 }
 
 /* Show navbar when scrolled up */
@@ -32,8 +33,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px 10px 30px;
+  padding: 10px 50px 10px 20px;
   background-color: white;
+  border-radius: 10px; /* Use a more reasonable value for better appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-logo a {

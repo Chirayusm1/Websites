@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   padding-top: 60px; /* Space for fixed navbar */
+  background-color: rgb(218, 213, 213);
 }
 
 main {
