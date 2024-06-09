@@ -1,53 +1,60 @@
-/* Footer.css */
+/* Add this CSS to your stylesheet (e.g., styles.css) */
 
-/* Main footer container */
-footer {
-  background-color: #f8f9fa;
-  color: #495057;
-  padding: 20px;
+.footer-container {
+  border-top: 1px solid #ccc; /* Line separating body and footer */
+  padding: 20px 40px; /* Padding on both sides */
+  display: flex;
+  justify-content: space-between; /* Ensure text and icons are separated */
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-/* Social network icons container */
-.flex.items-center.justify-center.border-b-2.border-neutral-200.p-6.dark:border-neutral-500.lg\:justify-between {
-  border-bottom: 2px solid #e2e8f0;
+.footer-container .caption {
+  text-align: left; /* Align text to the left */
+  flex: 1; /* Ensure it takes up the available space */
 }
 
-/* Social network icons */
-.text-neutral-600.dark\:text-neutral-200 {
-  color: #6c757d;
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
 }
 
-/* Main content container */
-.mx-6.py-10.text-center.md\:text-left {
-  max-width: 1200px;
-  margin: 0 auto;
+.footer-container li {
+  display: inline;
 }
 
-/* Grid layout for sections */
-.grid-1.grid.gap-8.md\:grid-cols-2.lg\:grid-cols-4 {
-  display: grid;
-  grid-gap: 20px;
+.footer-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #333; /* Background color for icons */
+  border-radius: 50%;
+  transition: background-color 0.3s;
 }
 
-/* Section headers */
-h6 {
-  font-size: 18px;
-  color: #007bff;
-  margin-bottom: 10px;
+.footer-container a:hover {
+  background-color: #555; /* Change color on hover */
 }
 
-/* Links within sections */
-a {
-  color: #007bff;
-  text-decoration: none;
+.footer-container img {
+  width: 16px;
+  height: 16px;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-/* Copyright section */
-.bg-neutral-200.p-6.text-center.dark\:bg-neutral-700 {
-  background-color: #e2e8f0;
-  color: #6c757d;
+/* Responsive styles */
+@media (max-width: 640px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-container ul {
+    margin-top: 10px;
+    justify-content: flex-end;
+    width: 100%;
+  }
 }
