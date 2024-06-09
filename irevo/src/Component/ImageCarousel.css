@@ -22,11 +22,11 @@
   }
 
   .image-cell {
-    width: 45%; /* Adjust the width as needed */
+    width: 50%; /* Adjust the width as needed */
   }
 
   .text-cell {
-    width: 55%; /* Adjust the width as needed */
+    width: 45%; /* Adjust the width as needed */
     text-align: left;
     justify-content: center;
     padding: 10%;
@@ -40,14 +40,16 @@
 
   .text-cell h1 {
     margin-bottom: 10px;
+    text-size-adjust: 60px;
   }
 
   .text-cell p {
-    margin: 5%;
+    margin: 0%;
     padding-top: 5%;
   }
 
   .slick-slide img {
     width: 100%; /* Adjust to ensure the image fills the container */
     height: 40%;
+    text-size-adjust: 50px;
   }
