@@ -3,7 +3,8 @@ import Navbar from './Component/Navbar';
 import ProductList from './Component/ProductList';
 import Footer from './Component/Footer';
 import ImageCarousel from './Component/ImageCarousel';
-import LargeContainer from './Component/ProductList1';
+import ProductList1 from './Component/ProductList1';
+import DualContainer from './Component/DualContainer'
 import './App.css';
 
 function App() {
@@ -11,11 +12,12 @@ function App() {
     <div className="App">
       <Navbar />
       <ImageCarousel />
-      <LargeContainer />
-      <main>
-        {/* <h1>Welcome to Our Shop</h1> */}
+      <ProductList1 />
+      <DualContainer />
+      {/* <main>
+        
         <ProductList />
-      </main>
+      </main> */}
       <Footer />
     </div>
   );

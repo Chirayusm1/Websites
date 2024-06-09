@@ -1,0 +1,33 @@
+.dual-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+  }
+  
+  .box {
+    width: 45%; /* Adjust width as needed */
+    height: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #f5e6bf;
+  }
+  
+  .explore-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(17, 17, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .explore-button:hover {
+    background-color: #515558;
+  }
+  
