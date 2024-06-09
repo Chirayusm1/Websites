@@ -10,11 +10,17 @@
     transition: top 0.3s;
   }
   
-  .large-container h1 {
+  /* .large-container h1 {
     margin-bottom: 0%;
   }
   
   .large-container p {
     margin: 0;
+  } */
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
   }
   

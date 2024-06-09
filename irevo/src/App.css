@@ -1,7 +1,17 @@
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  background-image: url('C:/GitHub/Website1/Websites/irevo/src/Component/Image/natue.jpg'); /* Adjust the path to your background image */
+  background-size:100%; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  /* position: fixed; */
+  /* You can add additional background properties here */
+}
+
 .App {
   text-align: center;
   padding-top: 60px; /* Space for fixed navbar */
-  background-color: rgb(218, 213, 213);
+  background-color: rgba(218, 213, 213, 0.5); /* Adjust the background color and opacity */
 }
 
 main {
