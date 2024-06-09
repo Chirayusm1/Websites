@@ -1,15 +1,33 @@
 {
   "files": {
-    "main.css": "/%7BWebsites%7D/static/css/main.0d7c9149.css",
-    "main.js": "/%7BWebsites%7D/static/js/main.5d3048df.js",
+    "main.css": "/%7BWebsites%7D/static/css/main.c0230c98.css",
+    "main.js": "/%7BWebsites%7D/static/js/main.4ac976fb.js",
     "static/js/453.86b1a50f.chunk.js": "/%7BWebsites%7D/static/js/453.86b1a50f.chunk.js",
+    "static/media/product1.png": "/%7BWebsites%7D/static/media/product1.bd4b9ac34c243ebf37b5.png",
+    "static/media/logo.jpeg": "/%7BWebsites%7D/static/media/logo.bfd0ab7087f60336b3eb.jpeg",
+    "static/media/leaves.jpg": "/%7BWebsites%7D/static/media/leaves.add02c14f27db144797f.jpg",
+    "static/media/atta.jpeg": "/%7BWebsites%7D/static/media/atta.859d93f79fe7913d8a16.jpeg",
+    "static/media/chiki.jpeg": "/%7BWebsites%7D/static/media/chiki.d6021ce99cd42e45e82b.jpeg",
+    "static/media/natue.jpg": "/%7BWebsites%7D/static/media/natue.d8177b851450235e5aa2.jpg",
+    "static/media/honey.jpeg": "/%7BWebsites%7D/static/media/honey.cd8687fd1febcbd11119.jpeg",
+    "static/media/oil.jpeg": "/%7BWebsites%7D/static/media/oil.e244dc9d8a7275d3d35c.jpeg",
+    "static/media/wax.jpeg": "/%7BWebsites%7D/static/media/wax.8619f5c3b83c17dcbdab.jpeg",
+    "static/media/discord.svg": "/%7BWebsites%7D/static/media/discord.bd18f4b4d2227d7b18154038a3c87cd4.svg",
+    "static/media/slick.svg": "/%7BWebsites%7D/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/%7BWebsites%7D/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/%7BWebsites%7D/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/%7BWebsites%7D/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/telegram.svg": "/%7BWebsites%7D/static/media/telegram.06dc8cc1e29f73412991211ac0247563.svg",
+    "static/media/twitter.svg": "/%7BWebsites%7D/static/media/twitter.cd5d43517ee7309c69dd3938a042d031.svg",
+    "static/media/instagram.svg": "/%7BWebsites%7D/static/media/instagram.dd7960406d87098b628fd0fcb8cb50f1.svg",
     "index.html": "/%7BWebsites%7D/index.html",
-    "main.0d7c9149.css.map": "/%7BWebsites%7D/static/css/main.0d7c9149.css.map",
-    "main.5d3048df.js.map": "/%7BWebsites%7D/static/js/main.5d3048df.js.map",
+    "static/media/facebook.svg": "/%7BWebsites%7D/static/media/facebook.a6ac24427677b6001c668feb3f1d1209.svg",
+    "main.c0230c98.css.map": "/%7BWebsites%7D/static/css/main.c0230c98.css.map",
+    "main.4ac976fb.js.map": "/%7BWebsites%7D/static/js/main.4ac976fb.js.map",
     "453.86b1a50f.chunk.js.map": "/%7BWebsites%7D/static/js/453.86b1a50f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d7c9149.css",
-    "static/js/main.5d3048df.js"
+    "static/css/main.c0230c98.css",
+    "static/js/main.4ac976fb.js"
   ]
 }
