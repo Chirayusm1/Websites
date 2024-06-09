@@ -13,12 +13,12 @@ function App() {
       <Navbar />
       <ImageCarousel />
       <DualContainer /> 
-      <ProductList1 />
+    
 
-      {/* <main>
+      <main>
         
-        <ProductList />
-      </main> */}
+      <ProductList1 />
+      </main>
       <Footer />
     </div>
   );
