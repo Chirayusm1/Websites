@@ -1,8 +1,9 @@
 .product-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 2%;
     justify-content: center;
     padding: 20px;
   }
+ 
   

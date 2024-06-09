@@ -12,8 +12,9 @@ function App() {
     <div className="App">
       <Navbar />
       <ImageCarousel />
+      <DualContainer /> 
       <ProductList1 />
-      <DualContainer />
+
       {/* <main>
         
         <ProductList />
