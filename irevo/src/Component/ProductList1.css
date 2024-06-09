@@ -4,7 +4,7 @@
     padding: 2% ; /* More padding for a larger container */
     margin: 5% auto; /* Center the container with margin */
     background-color: white;
-    border-radius: 20px; /* Same rounded corners as the navbar */
+    border-radius: 10px; /* Same rounded corners as the navbar */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Same shadow as the navbar */
     text-align: center;
     transition: top 0.3s;
