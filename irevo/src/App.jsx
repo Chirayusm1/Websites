@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Route, Routes, HashRouter } from 'react-router-dom';
 import Navbar from './Component/Navbar';
-import ProductList from './Component/ProductList';
+// import ProductList from './Component/ProductList';
 import Footer from './Component/Footer';
 import ImageCarousel from './Component/ImageCarousel';
 import ProductList1 from './Component/ProductList1';
@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <ImageCarousel />
@@ -28,7 +28,7 @@ function App() {
       </main>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
