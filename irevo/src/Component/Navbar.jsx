@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 import logo from './Image/logo.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faUser, faSearch , faStar } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart, faUser, faSearch, faStar } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
   const [visible, setVisible] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,19 +28,26 @@ const Navbar = () => {
     <div className={`navbar-container ${visible ? 'navbar-visible' : 'navbar-hidden'}`}>
       <nav className="navbar">
         <div className="navbar-links">
-          <a href="#" className="navbar-search">HOME</a>
-          <a href="#" className="navbar-search">SHOP</a>
-          <a href="#" className="navbar-search">ABOUT US</a>
-          <a href="#" className="navbar-search">FAQs</a>
+          <Link to="/" className={location.pathname === '/' ? 'active' : ''}>HOME</Link>
+          <div className="navbar-dropdown">
+            <Link to="/shop" className={location.pathname === '/shop' ? 'active' : ''}>SHOP</Link>
+            <ul className="dropdown-menu">
+              <li><Link to="/shop/category1">Soaps</Link></li>
+              <li><Link to="/shop/category2">Honey</Link></li>
+              <li><Link to="/shop/category3">Wax</Link></li>
+            </ul>
+          </div>
+          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>ABOUT US</Link>
+          <Link to="/faqs" className={location.pathname === '/faqs' ? 'active' : ''}>FAQs</Link>
         </div>
         <div className="navbar-logo">
-          <a href="#"><img src={logo} alt="Logo" className="logo-image" /></a>
+          <Link to="/"><img src={logo} alt="Logo" className="logo-image" /></Link>
         </div>
         <div className="navbar-buttons">
-          <a href="#" className="navbar-cart"><FontAwesomeIcon icon={faSearch} /></a>
-          <a href="#" className="navbar-search"><FontAwesomeIcon icon={faShoppingCart} /></a>
-          <a href="#" className="navbar-cart"><FontAwesomeIcon icon={faStar} /></a>
-          <a href="#" className="navbar-search"><FontAwesomeIcon icon={faUser} /></a>
+          <Link to="/search" className="navbar-cart"><FontAwesomeIcon icon={faSearch} /></Link>
+          <Link to="/cart" className="navbar-search"><FontAwesomeIcon icon={faShoppingCart} /></Link>
+          <Link to="/favorites" className="navbar-cart"><FontAwesomeIcon icon={faStar} /></Link>
+          <Link to="/account" className="navbar-search"><FontAwesomeIcon icon={faUser} /></Link>
         </div>
       </nav>
     </div>
